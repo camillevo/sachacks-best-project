@@ -74,7 +74,7 @@ class OtherKingdoms extends Component {
               className="list-group-item list-group-item-action flex-column align-items-start"
             >
               <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Loading other kingdoms...</h5>
+                <h5 class="mb-1">Loading social...</h5>
               </div>
               <p class="mb-1">&nbsp;</p>
             </div>
