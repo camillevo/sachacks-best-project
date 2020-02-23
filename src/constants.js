@@ -3,31 +3,31 @@ import { AppConfig } from 'blockstack'
 export const appConfig = new AppConfig(['store_write', 'publish_data'])
 export const ANIMALS = [
   {
-    id: 'cat',
-    name: 'Cat',
-    superpower: 'Has 9 lives.'
+    id: 'guitar',
+    name: 'Playing Guitar',
+    superpower: 'Play some sweet tunes.'
   },
   {
-    id: 'dog',
-    name: 'Dog',
-    superpower: 'Catching frisbees.'
+    id: 'knit',
+    name: 'Knitting',
+    superpower: 'Hobby for knitting.'
   },
   {
-    id: 'lion',
-    name: 'Lion',
-    superpower: 'Roaring loudly.'
+    id: 'photo',
+    name: 'Photography',
+    superpower: 'Capturing the scenary.'
   }]
 
 export const TERRITORIES = [
   {
-    id: 'forest',
-    name: 'Forest',
-    superpower: 'Trees!'
+    id: 'Happy',
+    name: 'Happy',
+    superpower: 'Happy'
   },
   {
-    id: 'tundra',
-    name: 'Tundra',
-    superpower: 'Let it snow!'
+    id: 'sad',
+    name: 'sad',
+    superpower: 'sad'
   }
 ]
 

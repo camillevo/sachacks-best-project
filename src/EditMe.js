@@ -43,9 +43,9 @@ class EditMe extends Component {
 
     return (
       <div className="EditMe container">
-      <h2>Your animal persona</h2>
-      <p>You are the ruler of your kingdom! Pick your animal persona and its home!</p>
-        <h3>Select your animal</h3>
+      <h2>Your hobby and psychology</h2>
+      <p>Choose your favorite hobby</p>
+        <h3>Hobbies</h3>
         <div className="row card-deck">
         { ANIMALS.map((animal, index) => {
           const selected = myAnimal && myAnimal.id === animal.id
@@ -55,7 +55,7 @@ class EditMe extends Component {
           })
         }
         </div>
-        <h3 className="select-territory">Select your territory</h3>
+        <h3 className="select-territory">Select your psychology</h3>
         <div className="card-deck">
         { TERRITORIES.map((territory, index) => {
           const selected = myTerritory && myTerritory.id === territory.id
